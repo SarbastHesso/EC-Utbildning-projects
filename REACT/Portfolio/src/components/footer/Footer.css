@@ -1,0 +1,42 @@
+.footer {
+    padding: 2rem;
+    background-color: var(--opacity-light-bg);
+}
+
+.textWrap {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--orange);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.logo {
+    background-color: var(--black-bg);
+    padding: .4rem .6rem;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    
+    .footer {
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .footer {
+        height: 250px;
+    }
+
+    .textWrap {
+        height: 200px;
+        flex-direction: column;
+    }
+
+}

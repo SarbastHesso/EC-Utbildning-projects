@@ -1,0 +1,8 @@
+@function text-color($color){
+    @if (lightness($color) > 70){
+        @return $darkpetrol; 
+    }
+    @else {
+        @return $light;
+    }
+}

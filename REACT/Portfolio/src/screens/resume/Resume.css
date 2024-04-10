@@ -1,0 +1,148 @@
+.resume {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.resumeContent {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentTitles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.educationTitle, .workTitle {
+    width: 100%;
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: all ease-in .05s;
+    border: 2px solid var(--orange);
+}
+
+.educationTitle {
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.workTitle {
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.contentBody {
+    width: 100%;
+    border-radius: .5rem;
+    min-height: 525px;
+}
+
+.educationItem {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+    text-align: start;
+    padding: .8rem;
+    margin-bottom: .5rem;
+    background-color: var(--opacity-light-bg);
+    border-radius: .5rem;
+}
+
+
+.workItem {
+    margin-bottom: .5rem;
+}
+
+.firstRow, .secondRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+    text-align: start;
+    background-color: var(--opacity-light-bg);
+    border-radius: .5rem;
+    padding: .8rem;
+}
+
+.secondRow {
+    padding-top: 0;
+}
+
+.flexedDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.listPoint {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--orange);
+    margin-right: 1rem;
+}
+
+.educationItemDesc, .workItemTitle{
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.skolKurser {
+    margin-top: 2rem;
+}
+
+.skolKurserTitle {
+    font-weight: 600;
+}
+
+.skolKurseritems {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 1.1rem;
+    margin-top: 1rem;
+}
+
+.skolKurserItem {
+    padding: .8rem;
+    background-color: var(--opacity-light-bg);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 960px){
+    .contentTitles {
+        flex-direction: column;
+    }
+
+    .educationTitle, .workTitle {
+        border-radius: .5rem;
+    }
+}
+
+@media (max-width: 320px){
+    .resume h3 {
+        font-size: 1rem;
+    }
+
+    .resume p {
+        font-size: .8rem;
+        width: 80%;
+    }
+
+}

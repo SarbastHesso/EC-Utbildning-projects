@@ -1,0 +1,23 @@
+﻿@model IEnumerable<EcommerceWebApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-5" id="index">
+    @foreach (var item in Model) {
+        <div class="col mb-4">
+            <div class="card p-3 shadow h-100">
+                <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="card-img-top" alt="">
+                <div class="card-body pb-0">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <div class="my-3 bg-danger p-1 mb-2 rounded">
+                        <p class="card-text text-light h5 text-center">@Html.DisplayFor(modelItem => item.Price):-</p>
+                    </div>
+                       <a class="bg-secondary py-1 px-2 rounded" asp-action="Details" asp-controller="Products" asp-route-id="@item.Id">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,79 @@
+@import "./colors";
+@import "./variables";
+@import "./functions";
+@import "./mixins";
+@import "./default";
+
+
+
+.registrering {
+
+    .form {
+        color: $light;
+        font-weight: 300;
+        @include bg-color($primary-color);
+
+        border-radius: 0.5rem;
+        padding: 1rem;
+
+        h1 {
+            text-align: center;
+            color: $light;
+            font-size: 1.3rem;
+            @include bg-color($secondary-color);
+            padding: 1.5rem 0;
+            border-radius: 0.3rem 0.3rem 0 0;
+            margin-bottom: 1rem;
+        }
+
+        label {
+            margin-top: 0.7rem;
+        }
+
+        input {
+            font-family: $secondary-font;
+        }
+
+        &-control {
+            padding: 1.3rem 1rem !important;
+        } 
+
+        small {
+            color: $grey !important;
+            font-family: $secondary-font;
+         }
+
+        .gdpr, .nyheter {
+
+            label {
+                font-family: $secondary-font;
+                font-weight: 200;
+                margin-top: 0;
+            }
+        }
+
+        .gdpr {
+
+            a {
+                color: $secondary-color;
+            }
+        }
+
+        .regist-btn {
+            text-align: center;
+
+            .btn-orange {
+                color: $light;
+                @include bg-color($secondary-color);
+                font-size: 1.1rem;
+                padding: 0.7rem 2rem;
+    
+                &:hover {
+                    border: 2px solid $light;
+                    background-color: $petrol;
+                }
+            }   
+        }      
+    }
+}
+ 

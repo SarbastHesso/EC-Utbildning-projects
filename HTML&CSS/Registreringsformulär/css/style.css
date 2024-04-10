@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  padding: 0;
+}
+
+.registrering .form {
+  color: #ffffff;
+  font-weight: 300;
+  background-color: #0c3a3f;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.registrering .form h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.3rem;
+  background-color: #df9203;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  border-radius: 0.3rem 0.3rem 0 0;
+  margin-bottom: 1rem;
+}
+
+.registrering .form label {
+  margin-top: 0.7rem;
+}
+
+.registrering .form input {
+  font-family: "Roboto", sans-serif;
+}
+
+.registrering .form-control {
+  padding: 1.3rem 1rem !important;
+}
+
+.registrering .form small {
+  color: #cccccc !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.registrering .form .gdpr label, .registrering .form .nyheter label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.registrering .form .gdpr a {
+  color: #df9203;
+}
+
+.registrering .form .regist-btn {
+  text-align: center;
+}
+
+.registrering .form .regist-btn .btn-orange {
+  color: #ffffff;
+  background-color: #df9203;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 0.7rem 2rem;
+}
+
+.registrering .form .regist-btn .btn-orange:hover {
+  border: 2px solid #ffffff;
+  background-color: #005761;
+}

@@ -1,0 +1,23 @@
+.btnWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    min-width: 200px;
+    padding: .7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--opacity-orange-2);
+    color: var(--black-text);
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: var(--orange);
+    transition: all ease-in .2s;
+}

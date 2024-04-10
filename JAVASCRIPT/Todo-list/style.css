@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 237, 238);
+}
+
+form button:hover {
+    background-color: rgb(90, 89, 89) !important;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+    cursor: pointer;
+}
+
+.todo:hover {
+    background-color: rgb(236, 237, 238);
+}
+
+.center {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo h4 {
+    margin: 0 1rem;
+    padding: 1rem 0;
+    flex: 1;
+}
+
+.todo i {
+    background-color: transparent;
+    color: black;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.todo i:hover {
+    color: rgb(248, 1, 1);
+}
+
+.check-mark {
+    color: rgb(6, 185, 6) !important;
+    margin-left: 0.4rem !important;
+    margin-right: 0 !important;
+    font-size: 1.2rem !important;
+}
+
+.checked {
+    color: rgb(185, 184, 184);
+    background-color: rgb(236, 237, 238);
+    box-shadow: none;
+    border: none;
+}
+
+.checked i {
+    display: block;
+}
+
+#sort:hover {
+    background-color: rgb(90, 89, 89) !important;
+}

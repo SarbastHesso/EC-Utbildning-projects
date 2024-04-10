@@ -1,0 +1,1 @@
+export const mySkills = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'VUE', 'ANGULAR', 'FIREBASE', 'MONGODB', 'ADOBEXD', 'FIGMA', 'BOOTSTRAP', 'GITHUB'];

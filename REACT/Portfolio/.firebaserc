@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "sarbast-hesso-portfolio",
+    "Sarbast-Hesso": "sarbast-hesso-portfolio"
+  },
+  "targets": {}
+}

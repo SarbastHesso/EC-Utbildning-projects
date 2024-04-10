@@ -1,0 +1,33 @@
+.themeToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid var(--orange);
+    border-radius: 1.5rem;
+    padding: .3rem;
+    cursor: pointer;
+    position: relative;
+    height: 40px;
+}
+
+.moon {
+    height: 1rem;
+    width: 1rem;
+    color: var(--orange);
+    margin-right: .7rem;
+}
+
+.sun {
+    height: 1rem;
+    width: 1rem;
+    color: var(--orange);
+    margin-left: .7rem;
+}
+
+.toggleBtn {
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 100%;
+    background-color: var(--orange);
+    position: absolute;
+}

@@ -1,0 +1,423 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* blu: #2BAAEC
+   green: #25E6C8
+   p color: #626262
+   rubrik color: 
+   */
+
+    * {
+          box-sizing: border-box;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        color: #626262;
+        font-size: 0.9rem;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .border {
+        border: 1px solid black;
+    }
+
+
+    .top-menu {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+
+    .working-hours i {
+        color: #2BAAEC;
+        font-size: 1.1rem;
+        margin-right: 0.5rem; 
+    }
+
+    .working-hours {
+        display: none;
+    }
+
+
+    .social-media i {
+        color: #2BAAEC;
+        margin-left: 1.3rem;
+    }
+
+    .social-media i:hover {
+        color: #25E6C8;
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2.2rem 0;
+
+    }
+
+    #menu-icon {
+        font-size: 2.5rem;
+        color: #363636;
+        padding:1rem
+    } 
+
+    #menu-icon:hover {
+        color: #2BAAEC;
+    }
+
+    #logo {
+        height: 65px;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+
+    .menu a {
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #363636;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.1rem;
+    }
+
+    .menu a:hover {
+        color: #2BAAEC;
+    }
+
+    .showcase {
+        background-color: #DEDEDE;
+    }
+
+    .showcase .container {
+        text-align: center;
+    }
+
+    .showcase img {
+        display: none;
+        height: 500px;
+        padding-top: 1rem;
+    }
+
+    .showcase-box {
+        align-self: center;
+        padding: 1.5rem;
+    }
+
+    .showcase-box h1 {
+        font-family: 'Roboto Slab', serif; 
+        font-size: 3rem;
+        color: #363636;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+
+    .showcase-box p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .showcase-box button {
+        font-size: 1rem;
+        padding: 0.75rem 2.5rem;
+        border: 1px solid transparent;
+        background-color: #25E6C8;
+        border-radius: 0.5rem;
+        color: white;
+    }
+
+    .showcase-box button:hover {
+        background-color: #2BAAEC;
+        cursor: pointer;
+    }
+
+    .aboutus img {
+        height: 600px;
+        padding-top: 4rem;
+        display: none;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .info h1 {
+        font-family: 'Roboto Slab', serif; 
+        font-size: 2.2rem;
+        color: #363636;
+        font-weight: 400;
+        border-bottom: 3px solid #25E6C8;
+        padding: 2rem 3rem 1rem 0;
+        margin-bottom: 2.5rem;
+    }
+      
+    .info p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .statistic {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .statistic h2 {
+        font-family: 'Roboto Slab', serif; 
+        font-size: 1.4rem;
+        color: #2BAAEC;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+
+    .statistic p {
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+
+    .services {
+        background-color: #F7F7F7;
+    }
+
+    .services .container {
+        padding: 2rem 0;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #title h1 {
+        display: inline-block;
+        font-family: 'Roboto Slab', serif; 
+        font-size: 2rem;
+        font-weight: 300;
+        padding: 0.8rem;
+        color: #363636;
+        border-bottom: 3px solid #25E6C8;
+        text-align: center;
+    }
+ 
+    .boxes-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .box {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon-bg {
+        display: flex;
+        background-color: #25E6C8;
+        align-self: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        margin: 4rem 0 3rem 0;
+    }
+
+    .icon-img {
+        margin: auto;
+        width: 50px;
+    }
+
+    .boxes-container .box h1 {
+        font-family: 'Roboto Slab', serif; 
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: #363636;
+        margin: 0;
+    }
+
+    .boxes-container .box p {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #626262;
+        padding: 0 3rem 3rem;
+    }
+
+    #box-5 {
+        width: 30px;
+    }
+
+    .appointment {
+        background-color: #4EB4E8;
+    }
+
+    .appointment .container {
+        display: block;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .appointment p {
+        font-family: 'Roboto Slab', serif; 
+        font-size: 1.7rem;
+        color: #ffffff;
+        font-weight: 300;
+        padding:0 1rem;
+    }
+
+    .appointment button {
+        font-size: 1rem;
+        padding: 1rem 2.5rem;
+        color: #2BAAEC;
+        font-weight: bold;
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+
+    .appointment button:hover {
+        background-color: #4EB4E8;
+        border: 4px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #2BAAEC;
+        color: #F3FBFF;
+        font-size: 0.8;
+    }
+     .footer p {
+         margin: 0;
+         padding: 1.7rem;
+         text-align: center;
+     }
+
+
+
+      
+@media (min-width: 576px) {
+  
+    .statistic h2 {
+        font-size: 1.9rem;
+    }
+
+    .statistic p {
+        font-size: 1rem;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .container {
+       max-width: 720px;
+    }
+
+    #menu-icon {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        order: 3;
+    }
+
+    .top-menu {
+        justify-content: space-between;
+    } 
+    
+    .working-hours {
+        display: flex;
+    }  
+
+    .appointment p {
+        padding: 0;
+    }
+    
+    .boxes-container {
+        grid-template-columns: 1fr 1fr;
+    }
+     
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    } 
+
+    .showcase img {
+        display: grid;
+    }
+
+    .showcase .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+        text-align: start;
+    }
+
+    .aboutus img {
+        display: grid;
+    }
+
+    .aboutus .container {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        column-gap: 10rem;
+    }
+
+    .info {
+        text-align: start;
+    }
+
+    #title {
+        margin-bottom: 2rem;
+    }
+
+    #title h1 {
+        padding: 0.8rem 7rem;
+    }
+
+    .info h1 {
+        padding: 6rem 3rem 1rem 0;
+    }
+
+
+    .boxes-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .services .container {
+        padding: 6rem 0;
+    }
+
+    .appointment .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
